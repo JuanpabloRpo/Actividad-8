@@ -2,3 +2,53 @@
 
 /* main */
 
+.container1{
+    width: 100%;
+    padding: 0%;
+    margin-top: 200px;
+}
+
+.container1 .row1{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin:  0px 0px 0px 50px;
+}
+
+.container1 .row1 .col-40{
+    width: 40%;
+    margin: 10px;
+    
+}
+
+.container1 .row1 .col-40 a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container1 .row1 .col-40 a:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+.container1 .row1 .cont-image{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+}
+
+.container1 .row1 .cont-image img{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    
+}

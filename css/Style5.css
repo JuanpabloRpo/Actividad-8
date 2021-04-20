@@ -1,0 +1,95 @@
+.container4{
+    width: 100hv;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.container4 .background{
+    background-image: url(https://image.freepik.com/foto-gratis/vaso-botella-delicioso-vino-tinto-mesa-contra-madera_127657-3953.jpg);
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.container4 .background .back-color{
+    background-color: rgba 0, 0, 0, 1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.container4 .background .back-color .row4{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    margin-top: 245px;
+}
+
+.container4 .background .back-color .row4 .col-60{
+    width: 100%;
+    padding: 30px;
+}
+
+.container4 .background .back-color .row4 .col-60 h2{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    color: orange;
+    transition: all 1s;
+}
+
+.container4 .background .back-color .row4 .col-60 h2:hover{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    color: orange;
+    transform: scaleY(2);
+}
+
+.container4 .background .back-color .row4 .col-60 p{
+    font-size: 4rem;
+    margin-top: 0;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    color: cornsilk;
+    transition: all .5s;
+}
+
+.container4 .background .back-color .row4 .col-60 p:hover{
+    transform: rotatez(2deg);
+}
+    
+
+.container4 .background .back-color .row4 .col-60 button{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 20px;
+    border: none;
+    font-weight: 700;
+    transition: ease-in-out 1s;
+}
+
+.container4 .background .back-color .row4 .col-60 button:hover{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 20px;
+    border: none;
+    font-weight: 700;
+    transform: rotateZ(10deg);
+}
+
+.container4 .background .back-color .row4 .col-60 button:hover{
+    color: white;
+    background-color: black;
+    cursor:pointer;
+}
+
+.container4 .background .back-color .row4 .container .background .back-color .row .col-60 h2{
+    margin-top: 0;
+    padding: 0;
+}
